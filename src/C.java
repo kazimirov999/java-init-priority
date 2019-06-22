@@ -1,4 +1,8 @@
 public class C extends B {
+
+    private static int staticC = printInitialzationStaticVariable("Initialization static variable in class C");
+    private int noStaticC = printInitialzationStaticVariable("Initialization no-static variable in class C");
+
     public C () {
         System.out.println("Call constructor in class C");
     }
